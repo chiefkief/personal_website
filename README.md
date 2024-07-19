@@ -1,6 +1,6 @@
 # personal_website
 
-a second attempt at first github repo
+## a second attempt at first github repo
 --------------------------------------
 
 7/18
