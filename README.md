@@ -12,3 +12,6 @@ start chapter 3 next(learnenoughhtml&css...)
 
 7/19
 spent a little over an hour on book before work, made a page for tags learned. Can now make index look much nicer/actually have a purpose. could make online resume or home page for browser(search bar from search engine, news, used links/server links)
+
+7/21
+very slow night at work, was able to add navigation links to top of all pages on mobile, need to style and still make lists in book report, but I wanted the navigation so I can look at my pages easier.
