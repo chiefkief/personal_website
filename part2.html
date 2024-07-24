@@ -4,34 +4,54 @@
         <title>Don't Panic'</title>
         <meta charset="UTF-8">
         <style>
-
+            .bio-box {
+                border: 1px solid black;
+            }
+            li a {
+                color: red;
+            }
+            .bio-box a {
+                color: green;
+            }
+            li {
+                border: 1px solid black;
+            }
+            #exec-bio {
+                background-color: lightgray;
+            }
+            #uniqua {
+                background-color: orange;
+            }
+            .second-class {
+                background-color: azure;
+            }
         </style>
     </head>
     <body>
         <h1>I'm an h1</h1> 
         <ul>
             <li>
-                <a href="https://example.com/" style="color: red;">link</a> 
+                <a href="https://example.com/">link</a> 
             </li>
             <li>
-                <a href="https://example.com/" style="color: red;">link</a> 
+                <a href="https://example.com/">link</a> 
             </li>
             <li>
-                <a href="https://example.com/" style="color: red;">link</a> 
+                <a href="https://example.com/">link</a> 
             </li>
         </ul>        
         <h2>I'm an h2</h2>
-        <div style="border: 1px solid black;">
-            <a href="https://example.com/" style="color: green;">I'm a link</a>
+        <div id="exec-bio" class="bio-box" class="second-class">
+            <a href="https://example.com/">I'm a link</a>
         </div>
-        <div style="border: 1px solid black;">
-            <a href="https://example.com/" style="color: green;">I'm a link</a>
+        <div class="bio-box" class="second-class">
+            <a href="https://example.com/">I'm a link</a>
         </div>
-        <div style="border: 1px solid black;">
-            <a href="https://example.com/" style="color: green;">I'm a link</a>
+        <div class="bio-box" class="second-class">
+            <a href="https://example.com/">I'm a link</a>
         </div>
-        <div style="border: 1px solid black;">
-            <a href="https://example.com/" style="color: green;">I'm a link</a>
+        <div class="bio-box" class="second-class">
+            <a id="uniqua" href="https://example.com/">I'm a link</a>
         </div>
     </body>
 </html>
