@@ -18,3 +18,6 @@ very slow night at work, was able to add navigation links to top of all pages on
 
 7/22
 finished part one of learn enough html and css to be dangerous. Part two starts on a new webpage, might do some more work on this one for personal use, but might end up just continuing the book and starting fresh.
+
+7/25
+been working on the website, but not the readme. just got a laptop, so testing git push on the new laptop now, hopefully it works smoothly so i dont need to do any research. So far pull worked, now time to test commit and push(fingers crossed not to master)
