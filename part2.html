@@ -4,54 +4,107 @@
         <title>Don't Panic'</title>
         <meta charset="UTF-8">
         <style>
+
+            /* GLOBAL STYLES */
+            html, body {
+                margin: 0;
+                padding: 0;
+            }
+            h1 {
+                font-size: 7vw;
+                margin-top: 0;
+            }
+            a {
+                color: #a64dff; 
+            }
+
+            /* HERO STYLES*/
+            .full-hero {
+                background-color: #c7dbfc;
+                height: 75vw;
+                width: 75vw;
+            }
+
+            /* SOCIAL STYLES */
+            .social-link {
+                background: rgba(150, 150, 150, 0.5);
+                color: #00f;
+            }
+
+            /* BIO STYLES */
+            .bio-wrapper {
+                font-size: 24px; 
+            }
             .bio-box {
-                border: 1px solid black;
+                border: 1px solid #000;
+                width: 50%;
+                font-size: 1rem;
             }
-            li a {
-                color: red;
+            .bio-box h3 {
+                font-size: 1.5em;
             }
-            .bio-box a {
-                color: green;
+            .bio-copy {
+                font-size: 1em;
             }
-            li {
-                border: 1px solid black;
+            .bio-copy a {
+                color: #0f0;
             }
-            #exec-bio {
-                background-color: lightgray;
-            }
-            #uniqua {
-                background-color: orange;
-            }
-            .second-class {
-                background-color: azure;
-            }
+            
+
         </style>
     </head>
     <body>
-        <h1>I'm an h1</h1> 
-        <ul>
-            <li>
-                <a href="https://example.com/">link</a> 
-            </li>
-            <li>
-                <a href="https://example.com/">link</a> 
-            </li>
-            <li>
-                <a href="https://example.com/">link</a> 
-            </li>
-        </ul>        
+        <div class="full-hero hero-home">
+            <h1>I'm an h1</h1> 
+            <ul>
+                <li class="social-link">
+                    <a href="https://example.com/">link</a> 
+                </li>
+                <li class="social-link">
+                    <a href="https://example.com/">link</a> 
+                </li>
+                <li class="social-link">
+                    <a href="https://example.com/">link</a> 
+                </li>
+            </ul>        
+        </div>
         <h2>I'm an h2</h2>
-        <div id="exec-bio" class="bio-box" class="second-class">
-            <a href="https://example.com/">I'm a link</a>
-        </div>
-        <div class="bio-box" class="second-class">
-            <a href="https://example.com/">I'm a link</a>
-        </div>
-        <div class="bio-box" class="second-class">
-            <a href="https://example.com/">I'm a link</a>
-        </div>
-        <div class="bio-box" class="second-class">
-            <a id="uniqua" href="https://example.com/">I'm a link</a>
+        <div class="bio-wrapper">
+            <div id="exec-bio" class="bio-box alert">
+                <h3>Kiefer Harshman</h3>
+                <a href="https://github.com/chiefkief" class="social-link">here</a>
+                <div class="bio-copy">
+                    <p>
+                    When hes not busy writing <a href="https://chiefkief.github.io/personal_website/">programs from books,</a> but at least trying to be a little original, Kiefer spends his time bartending or getting ready to go back to school. Doesn't sound like much fun, but 2024 is the year for making money, so might have to sacrifice some fun time
+                    </p>
+                </div>
+            </div>
+            <div class="bio-box">
+                <h3>Bigfoot</h3>
+                <a href="https://bigfootblog.com/" class="social-link">If you see anything</a>
+                <div class="bio-copy">
+                    <p>
+                    Bigfoot prints were first reported by california loggers in 1958. since then bigfoot has spent his time traveling and making appearences all over the country. He isn't the easiest to find, but if you do, just give him some <a href="https://www.jacklinks.com/shop/sasquatch-plush-with-box">jerky</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="bio-box">
+                <h3>Teaching html</h3>
+                <a href="https://www.w3schools.com/html/default.asp" class="social-link">w3 Schools Html</a>
+                <div class="bio-copy">
+                    <p>
+                    This page is a more in depth look at HTML and CSS, and should help to make some of the simpler concepts more concrete. This is supposed to be a precursor to PHP and mySQL, since I have a class on server side web dev coming up, but im guessing i'll learn the php in class, so want to know the html, css, and I think javascript before the class starts(in about a month).
+                    </p>
+                </div>
+            </div>
+            <div class="bio-box alert">
+                <h3>looking ahead</h3>
+                <div class="bio-copy">
+                    <p>
+                    What can we do to make this page pop?
+                    </p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
