@@ -24,3 +24,4 @@ been working on the website, but not the readme. just got a laptop, so testing g
 
 7/26
 making a small change to readme to see if there are any problems merging and pushing.
+still trying, well get there soon.
