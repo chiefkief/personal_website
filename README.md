@@ -21,3 +21,6 @@ finished part one of learn enough html and css to be dangerous. Part two starts 
 
 7/25
 been working on the website, but not the readme. just got a laptop, so testing git push on the new laptop now, hopefully it works smoothly so i dont need to do any research. So far pull worked, now time to test commit and push(fingers crossed not to master)
+
+7/26
+making a small change to readme to see if there are any problems merging and pushing.
