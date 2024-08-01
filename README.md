@@ -28,3 +28,5 @@ still trying, well get there soon.
 
 8/1
 reset the computer, really didnt need to, but something was really wrong with homebrew, gonna do research before just blindly downloading it.
+
+even more changes
