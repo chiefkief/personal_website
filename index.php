@@ -9,7 +9,7 @@
 
 <body>
   <?php include('layout/navbar.php') ?>
-
+  
   <p>
   <h1><strong>Kiefer Harshman</strong></h1>
   <a href="https://thatsthefinger.com/">very helpful HTML tutorial!</a>
@@ -53,7 +53,7 @@
         src="images/github_logo.png" alt="github" width="4%"></a>
 
   </p>
-
+  
 </body>
 
 </html>
