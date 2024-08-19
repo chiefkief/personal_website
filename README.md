@@ -30,3 +30,6 @@ still trying, well get there soon.
 reset the computer, really didnt need to, but something was really wrong with homebrew, gonna do research before just blindly downloading it.
 
 even more changes
+
+8/18
+playing with php, this can probably replace jekyll and have other uses on top of the static site stuff, do all sites that use php have the .php filetype instead of .html? why doesnt html just auto work on php if its used in html?
